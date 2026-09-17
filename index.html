@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NEW CAR CARE | Professional Car Service</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="brand"><span class="brandmark">N</span><div><b>NEW CAR CARE</b><small>Professional Car Service</small></div></div>
+  <nav><a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><button class="ghost" onclick="openModal('login')">Customer Login</button><button class="primary" onclick="openModal('register')">New Customer</button><button class="ghost admin" onclick="openModal('admin')">Admin</button></nav>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">TRUST • EXPERIENCE • CARE</p>
+    <h1>Your car deserves<br><span>the right care.</span></h1>
+    <p class="lead">Company-trained mechanic • 15+ years of experience • Reliable service for your car.</p>
+    <div class="actions"><button class="primary big" onclick="openModal('register')">Book Your Service</button><a class="call" href="tel:+919427857085">☎ Call 9427857085</a></div>
+    <div class="trust"><div><strong>15+</strong><small>Years Experience</small></div><div><strong>10K+</strong><small>Cars Serviced*</small></div><div><strong>100%</strong><small>Care Focused</small></div></div>
+  </div>
+  <div class="hero-card"><div class="car-art">🚘</div><div class="cardline"><span>NEW CAR CARE</span><b>Service & Repair</b></div><div class="check">✓ Company Trained Mechanic</div><div class="check">✓ Transparent Service History</div><div class="check">✓ Customer Dashboard</div></div>
+</section>
+
+<section class="section" id="services">
+<p class="eyebrow">OUR SERVICES</p><h2>Everything your car needs.</h2>
+<div class="grid">
+  <article><i>🔧</i><h3>General Service</h3><p>Routine inspection, servicing and maintenance.</p></article>
+  <article><i>🛢️</i><h3>Oil & Filter</h3><p>Engine oil and filter replacement.</p></article>
+  <article><i>❄️</i><h3>AC Service</h3><p>AC inspection, maintenance and repair.</p></article>
+  <article><i>⚡</i><h3>Electrical</h3><p>Electrical checks and fault diagnosis.</p></article>
+  <article><i>🛞</i><h3>Brakes & Wheels</h3><p>Brake, wheel and suspension checks.</p></article>
+  <article><i>💻</i><h3>Computer Diagnosis</h3><p>OBD-based vehicle fault diagnosis.</p></article>
+</div>
+</section>
+
+<section class="dashboard-preview">
+  <div><p class="eyebrow">CUSTOMER EXPERIENCE</p><h2>Your service history,<br>always with you.</h2><p>Every customer gets a secure account. See how many times you serviced your car, your previous bills, last service date and when you joined New Car Care.</p><button class="primary" onclick="openModal('login')">View Customer Login</button></div>
+  <div class="mock">
+    <div class="mocktop"><span>Customer Dashboard</span><b>● Active</b></div>
+    <div class="stats"><div><b>8</b><small>Services</small></div><div><b>12 Jun</b><small>Last Service</small></div><div><b>2023</b><small>Joined</small></div></div>
+    <div class="history"><b>Recent Services</b><p>General Service <span>₹ 3,500</span></p><p>AC Service <span>₹ 1,800</span></p><p>Oil & Filter <span>₹ 2,200</span></p></div>
+  </div>
+</section>
+
+<section class="about" id="about"><div><p class="eyebrow">ABOUT NEW CAR CARE</p><h2>Experience you can trust.</h2><p>New Car Care is built around careful workmanship, honest communication and long-term customer relationships.</p><div class="pill">Company Trained Mechanic</div><div class="pill">15+ Years Experience</div></div><div class="quote">“We don't just service cars. We build relationships with customers.”<small>— New Car Care</small></div></section>
+</main>
+
+<footer><b>NEW CAR CARE</b><span>Professional Car Service & Repair</span><span>📞 9427857085</span><span>📍 Behind Arya Complex, By-pass Road, Himmatnagar, Gujarat 383001</span><span>© 2026 New Car Care</span></footer>
+
+<div class="modal" id="modal"><div class="modalbox"><button class="x" onclick="closeModal()">×</button><div id="modalContent"></div></div></div>
+<script src="app.js"></script>
+</body></html>

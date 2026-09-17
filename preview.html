@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NEW CAR CARE — Premium Preview</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#07090b;color:#f4f6f8;font-family:Arial,Helvetica,sans-serif}
+.nav{height:76px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #20262c;background:#090b0d}
+.logo{display:flex;align-items:center;gap:12px}.mark{width:40px;height:40px;border:2px solid #e9edf0;border-radius:11px;display:grid;place-items:center;font-weight:900;letter-spacing:-2px}.logo b{letter-spacing:2px}.logo small{display:block;color:#7f8992;font-size:9px;letter-spacing:1px;margin-top:3px}
+nav a,nav button{margin-left:20px;color:#b6bec6;text-decoration:none;background:none;border:0;font-size:13px;cursor:pointer}.cta{background:#f3f5f7!important;color:#07090b!important;padding:11px 16px;border-radius:9px;font-weight:800}
+.hero{min-height:620px;padding:90px 9%;display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center;background:radial-gradient(circle at 78% 42%,#26313c 0,#0b0e12 34%,#07090b 67%)}
+.kicker{font-size:11px;letter-spacing:3px;color:#8c97a1;font-weight:bold}.hero h1{font-size:clamp(50px,7vw,88px);line-height:.94;margin:18px 0}.hero h1 span{color:#89949e}.hero p{max-width:610px;color:#aab3bc;font-size:18px;line-height:1.65}.actions{margin-top:30px}.main{padding:15px 22px;border:0;border-radius:10px;background:#f3f5f7;color:#07090b;font-weight:900;cursor:pointer}.phone{margin-left:18px;color:#e7eaed;text-decoration:none;font-weight:700}
+.badges{display:flex;gap:38px;margin-top:55px}.badges strong{font-size:27px;display:block}.badges span{font-size:11px;color:#78838d}
+.visual{height:390px;border:1px solid #303943;border-radius:26px;background:linear-gradient(145deg,#192027,#0d1115);display:flex;align-items:center;justify-content:center;box-shadow:0 35px 90px #0009;position:relative;overflow:hidden}.visual:before{content:"";position:absolute;width:330px;height:330px;border-radius:50%;background:#38455055;filter:blur(20px)}.car{font-size:150px;z-index:1}.tag{position:absolute;bottom:20px;left:20px;right:20px;padding:15px;background:#0a0d10dd;border:1px solid #303840;border-radius:12px;z-index:2;display:flex;justify-content:space-between}
+section{padding:90px 9%}.title{font-size:46px;margin:8px 0 40px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid #222a31;border-radius:17px;padding:27px;background:#0d1014}.icon{font-size:27px}.card h3{margin:18px 0 8px}.card p{color:#858f99;line-height:1.6}
+.portal{background:#0d1014;display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.portal p{color:#929ca5;line-height:1.7}.panel{border:1px solid #303840;border-radius:20px;background:#080b0e;padding:22px}.panelhead{display:flex;justify-content:space-between}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:20px 0}.stat{background:#11161b;padding:15px;border-radius:11px}.stat b{display:block;font-size:20px}.stat span{font-size:10px;color:#7d8790}.row{padding:13px 0;border-bottom:1px solid #20272e;color:#b7c0c8}.row span{float:right;color:#e5e8ea}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:30px}.contactbox{padding:30px;border:1px solid #252d35;border-radius:17px;background:#0d1014}.contactbox p{color:#929ca5;line-height:1.8}.contactbox a{color:#fff}.pill{display:inline-block;border:1px solid #333d46;border-radius:30px;padding:9px 12px;color:#aeb7bf;font-size:11px;margin:5px}
+footer{border-top:1px solid #20262a;padding:30px 9%;color:#737e88;display:flex;gap:25px;flex-wrap:wrap}footer b{color:#f4f6f8;letter-spacing:2px}
+@media(max-width:800px){nav a{display:none}.hero,.portal,.contact{grid-template-columns:1fr;padding:60px 6%}.grid{grid-template-columns:1fr 1fr}section{padding:65px 6%}.title{font-size:38px}}@media(max-width:520px){.grid{grid-template-columns:1fr}.hero h1{font-size:52px}.badges{gap:18px;flex-wrap:wrap}.phone{display:block;margin:18px 0 0}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="logo"><div class="mark">NC</div><div><b>NEW CAR CARE</b><small>PROFESSIONAL CAR SERVICE</small></div></div><nav><a href="#services">Services</a><a href="#portal">Customer Portal</a><a href="#billing">Bill Book</a><a href="#contact">Contact</a><button class="cta" onclick="alert('Customer login will be connected in the full online version.')">Customer Login</button></nav></header>
+<main>
+<section class="hero"><div><div class="kicker">TRUST • EXPERIENCE • CARE</div><h1>Your car deserves<br><span>the right care.</span></h1><p>Company Trained Mechanic · 15+ Years of Experience · Professional Car Service & Repair in Himmatnagar.</p><div class="actions"><button class="main" onclick="alert('Service booking will be connected in the full online version.')">BOOK A SERVICE</button><a class="phone" href="tel:9427857085">☎ 9427857085</a></div><div class="badges"><div><strong>15+</strong><span>YEARS EXPERIENCE</span></div><div><strong>✓</strong><span>TRAINED MECHANIC</span></div><div><strong>24/7</strong><span>ENQUIRY ACCESS</span></div></div></div><div class="visual"><div class="car">🚘</div><div class="tag"><span>NEW CAR CARE</span><b>Service & Repair</b></div></div></section>
+<section id="services"><div class="kicker">WHAT WE DO</div><h2 class="title">Complete car care.</h2><div class="grid"><div class="card"><div class="icon">🔧</div><h3>General Service</h3><p>Routine inspection, maintenance and servicing.</p></div><div class="card"><div class="icon">🛢️</div><h3>Oil & Filters</h3><p>Engine oil and filter replacement.</p></div><div class="card"><div class="icon">❄️</div><h3>AC Service</h3><p>Vehicle AC inspection and repair.</p></div><div class="card"><div class="icon">⚡</div><h3>Electrical</h3><p>Electrical checks and fault diagnosis.</p></div><div class="card"><div class="icon">🛞</div><h3>Brakes & Wheels</h3><p>Brake, wheel and suspension checks.</p></div><div class="card"><div class="icon">💻</div><h3>Computer Diagnosis</h3><p>OBD-based vehicle fault diagnosis.</p></div></div></section>
+<section class="portal" id="portal"><div><div class="kicker">CUSTOMER PORTAL</div><h2 class="title">Every service.<br>One account.</h2><p>Customers can create an account and see their service history, number of visits, previous service amounts, last service date, vehicle details and when they joined New Car Care.</p><span class="pill">Service History</span><span class="pill">Vehicle Details</span><span class="pill">Previous Bills</span><span class="pill">Join Date</span></div><div class="panel"><div class="panelhead"><b>Customer Dashboard</b><span>● Active</span></div><div class="stats"><div class="stat"><b>8</b><span>SERVICES</span></div><div class="stat"><b>12 Jun</b><span>LAST SERVICE</span></div><div class="stat"><b>2023</b><span>JOINED</span></div></div><div class="row">General Service <span>₹ 3,500</span></div><div class="row">AC Service <span>₹ 1,800</span></div><div class="row">Oil & Filter <span>₹ 2,200</span></div></div></section>
+
+<section id="billing">
+<div class="kicker">WORKSHOP BILL BOOK</div>
+<h2 class="title">Record the work. Calculate the bill.</h2>
+<div class="contactbox">
+<p style="color:#929ca5;line-height:1.7">Workshop staff can enter each item/service, quantity and price on the laptop. The total is calculated automatically. The final invoice can be shared with the customer through WhatsApp and a copy remains saved in the workshop system.</p>
+<div class="pill">Automatic Total</div><div class="pill">Parts + Labour</div><div class="pill">Customer Copy</div><div class="pill">Workshop Copy</div>
+</div>
+</section>
+
+<section>
+<div class="kicker">WORKSHOP MANAGEMENT</div>
+<h2 class="title">More than a website.</h2>
+<div class="grid">
+<div class="card"><div class="icon">🧾</div><h3>Digital Bill Book</h3><p>Parts, labour, quantity, rate, automatic total, bill number and printable customer copy.</p></div>
+<div class="card"><div class="icon">🛠️</div><h3>Job Cards</h3><p>Record customer complaint, vehicle condition and work required before service starts.</p></div>
+<div class="card"><div class="icon">📏</div><h3>KM Tracking</h3><p>Save current odometer KM and next-service KM with every service record.</p></div>
+<div class="card"><div class="icon">📷</div><h3>Repair Photos</h3><p>Keep before/after repair photos attached to the vehicle record in the production version.</p></div>
+<div class="card"><div class="icon">📦</div><h3>Parts Inventory</h3><p>Track workshop stock and receive low-stock warnings.</p></div>
+<div class="card"><div class="icon">🔔</div><h3>Service Reminders</h3><p>Keep the next-service KM and follow-up reminder linked to the customer.</p></div>
+<div class="card"><div class="icon">⭐</div><h3>Feedback</h3><p>Customers can send a rating and message after service.</p></div>
+<div class="card"><div class="icon">📊</div><h3>Workshop Dashboard</h3><p>Search customers, review service history and manage daily workshop records.</p></div>
+<div class="card"><div class="icon">🔐</div><h3>Privacy by Design</h3><p>Customer records stay behind authenticated customer/admin access rather than being exposed on the public homepage.</p></div>
+</div>
+</section>
+
+<section>
+<div class="kicker">WORKSHOP CONTROL</div>
+<h2 class="title">Built for the daily workshop.</h2>
+<div class="grid">
+<div class="card"><div class="icon">🚘</div><h3>Multiple Vehicles</h3><p>One customer can have multiple cars, each with separate history.</p></div>
+<div class="card"><div class="icon">🧾</div><h3>Estimate → Final Bill</h3><p>Save an estimated amount and compare it with the final service bill.</p></div>
+<div class="card"><div class="icon">📍</div><h3>Job Status</h3><p>Received → Inspection → Work in Progress → Ready → Delivered.</p></div>
+<div class="card"><div class="icon">💳</div><h3>Payment Status</h3><p>Track paid, pending and partial payments for every service.</p></div>
+<div class="card"><div class="icon">📈</div><h3>Monthly Reports</h3><p>Workshop dashboard for customers, services and collections.</p></div>
+<div class="card"><div class="icon">💾</div><h3>Backup Ready</h3><p>Production deployment can be configured with scheduled database backups.</p></div>
+<div class="card"><div class="icon">👨‍💼</div><h3>Staff Accounts</h3><p>Separate staff logins can be used later with limited permissions.</p></div>
+</div>
+</section>
+<section id="contact" class="contact"><div class="contactbox"><div class="kicker">VISIT US</div><h2>NEW CAR CARE</h2><p>📍 Behind Arya Complex,<br>By-pass Road, Himmatnagar,<br>Gujarat — 383001</p><p>📞 <a href="tel:9427857085">9427857085</a></p></div><div class="contactbox"><div class="kicker">WORKSHOP</div><h2>Built on experience.</h2><p>Company Trained Mechanic<br><b style="color:#fff">15+ Years Experience</b></p><button class="main" onclick="location.href='https://www.google.com/maps/search/?api=1&query=Behind+Arya+Complex+By-pass+Road+Himmatnagar+Gujarat+383001'">GET DIRECTIONS</button></div></section>
+</main><footer><b>NEW CAR CARE</b><span>Professional Car Service & Repair</span><span>© 2026 New Car Care</span></footer>
+</body></html>
